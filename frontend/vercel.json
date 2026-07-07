@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/documents/:path*",
+      "destination": "https://aman7303-customer-support-ai-backend.hf.space/documents/:path*"
+    },
+    {
+      "source": "/chat/:path*",
+      "destination": "https://aman7303-customer-support-ai-backend.hf.space/chat/:path*"
+    }
+  ]
+}
