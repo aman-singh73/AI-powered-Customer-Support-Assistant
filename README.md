@@ -1,3 +1,12 @@
+---
+title: Customer Support AI Backend
+emoji: 🦀
+colorFrom: blue
+colorTo: pink
+sdk: docker
+pinned: false
+---
+
 # Intelligent Customer Support AI Assistant
 
 A full-stack RAG (Retrieval-Augmented Generation) system built to answer user queries based on company documentation. If the system doesn't have enough context or confidence to answer a question, it safely escalates the query to a human agent.
