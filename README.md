@@ -9,6 +9,8 @@ pinned: false
 
 # Intelligent Customer Support AI Assistant
 
+**Live Demo:** [https://ai-powered-customer-support-assista.vercel.app/](https://ai-powered-customer-support-assista.vercel.app/)
+
 A full-stack RAG (Retrieval-Augmented Generation) system built to answer user queries based on company documentation. If the system doesn't have enough context or confidence to answer a question, it safely escalates the query to a human agent.
 
 ## Tech Stack
