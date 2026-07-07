@@ -40,7 +40,7 @@ export default function Sidebar() {
     files.forEach(file => formData.append('files', file));
 
     try {
-      const response = await fetch('/documents/upload', {
+      const response = await fetch('https://aman7303-customer-support-ai-backend.hf.space/documents/upload', {
         method: 'POST',
         body: formData,
       });

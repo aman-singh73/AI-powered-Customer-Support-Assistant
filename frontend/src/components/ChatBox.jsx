@@ -28,7 +28,7 @@ export default function ChatBox() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('/chat/', {
+      const response = await fetch('https://aman7303-customer-support-ai-backend.hf.space/chat/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
