@@ -7,11 +7,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/documents': {
-        target: 'http://127.0.0.1:8000',
+        target: '',
         changeOrigin: true
       },
       '/chat': {
-        target: 'http://127.0.0.1:8000',
+        target: '',
         changeOrigin: true
       }
     }

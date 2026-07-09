@@ -1,7 +1,65 @@
-.env
-chroma_db/
-kb_uploads/
-uploads/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
 venv/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+*.dockerignore
+
+# Logs
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Build artifacts
+dist/
+build/
+*.tgz
+*.zip
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log.*
+!package.json
+!package-lock.json
+!requirements.txt
+!*.yml
+
+# InfrIQa generated manifest
+.infriqa/
+
+
+# OpenTofu / Terraform local files
+tofu/.terraform/
+tofu/*.tfstate
+tofu/*.tfstate.*
+tofu/tofu.tfvars
+tofu/terraform.tfvars
+tofu/crash.log
